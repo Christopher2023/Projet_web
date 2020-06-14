@@ -167,6 +167,7 @@
                 var ul6 = document.createElement("ul");
                 var ul7 = document.createElement("ul");
                 
+                var x = document.getElementById("output");
                 ul1.textContent = document.getElementById("prenom").value
                 ul1.append(' ')
                 ul1.append(document.getElementById("nom").value)
@@ -179,6 +180,7 @@
                 ul6.append(' €')
                 ul7.textContent = document.getElementById("description").value
                 
+                div2.appendChild(x);
                 div.appendChild(ul1);
                 div.appendChild(ul2);
                 div.appendChild(ul6);
@@ -192,6 +194,7 @@
                 element.appendChild(section);
                 section.style.backgroundColor = "black";
                 section.style.color = "white";
+                div2.style.height = "250px"
             }
         var loadFile = function(event) {
           var output = document.getElementById('output');
