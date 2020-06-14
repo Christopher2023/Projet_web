@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="projet.css" />
+        <title> Luxury cars  </title>
+    </head>
+    <header>
+        <a href = "Accueil.html">
+            <img class = "logo" src = "logo.png"/>
+        </a>
+        <form style = "text-align : right; margin-right : 100px">
+            <input placeholder="Rechercher" type="search" id="recherche" name="recherche" style = "margin-left : -4px">
+        </form>
+        <nav>
+            <FONT color = white>
+                <table>
+                    <tr>
+                        <th onclick="document.location='Accueil.html'"> Accueil </th>
+                        <th onclick="document.location='Qui sommes nous.html'"> Qui sommes nous ? </th>
+                        <th onclick="document.location='A vous de jouer.html'"> A vous de jouer </th>
+                        <th onclick="document.location='Contacts.html'" style = "border-right : none"> Contacts </th>
+                    </tr>
+                </table>
+            </FONT>
+        </nav>
+    </header>
+    <body >
+        <bbody>
+        <FONT color = "white">
+            <section style = "background-color : black">
+                <div>
+                    <img class = "julie_annonce" src ="annonce_julie_dupont.jpg"></div><div>
+                    <ul>Julie Dupont</ul>
+                    <ul>Lamborghini</ul>
+                    <ul>65000€</ul>
+                    <ul>Aventador</ul>
+                    <ul>2016</ul>
+                    <ul>5000 Km</ul>
+                    <ul>Couleur extérieure Rouge Alizarine, intérieur cuir rouge. Voiture avec toutes fonctions.</ul>
+                </div>
+            </section><section style = "background-color : black">
+                <div>
+                    <img class ="julie_annonce" src ="annonce_antoine_duchemin.jpg"></div><div>
+                    <ul>Antoine Duchemin</ul>
+                    <ul>Bentley</ul>
+                    <ul>25000€</ul>
+                    <ul>Continental GTC 2</ul>
+                    <ul>2019</ul>
+                    <ul>100 Km.</ul>
+                    <ul>Couleur extérieure Noir Charbon, intérieur cuir beige. Voiture neuve, très peu servie.</ul>
+                </div>
+            </section>
+            <section style = "background-color : black">
+                <div>
+                    <img class ="julie_annonce" src ="annonce_henri_chateau.jpg"></div><div>
+                    <ul>Henri Chateau</ul>
+                    <ul>Jaguar</ul>
+                    <ul>15000€</ul>
+                    <ul>Xf</ul>
+                    <ul>2014</ul>
+                    <ul>3600 Km</ul>
+                    <ul>Couleur extérieure Blanc Craie, intérieur cuir noir.</ul>
+                </div>
+                </section><section style = "background-color : black">
+                <div>
+                    <img class="julie_annonce" src ="annonce_marie_delariviere.jpg"></div><div>
+                    <ul>Marie Delarivière</ul>
+                    <ul>Mercerdes</ul>
+                    <ul>5000€</ul>
+                    <ul>Mayback GLS 600</ul>
+                    <ul>2019</ul>
+                    <ul>700Km</ul>
+                    <ul>Couleur extérieure Rouge Bordeaux, intérieur cuir marron. Voiture neuve, très peu servie.</ul>
+                </div>
+            </section>
+                </bbody>
+        <hr width = 50% style = "margin-top : 70px">
+        <FONT color = "black"><h1 style = "text-align : center; margin-top : 100px; margin-bottom : 80px"> Déposez votre annonce </h1>
+        <section>
+            <form style = "display : block; margin-left : auto; margin-right : auto; font-size : 25px" action="/action_page.php">
+                   <input type="radio" name="civi" value="Mme"> Madame
+                   <input type="radio" name="civi" value="Mlle"> Mademoiselle
+                   <input type="radio" name="civi" value="Mr"> Monsieur
+                   <input type="radio" name="civi" value="autre"> Autre
+                    <br><br>
+                   Prénom :
+                   <input type="text" id = "prenom" name="prenom" style = "height : 30px; font-size : 15px" required>
+                   Nom :
+                   <input type="text" id = "nom" name="nom" style = "width : 152px; height : 30px; font-size : 15px" required>
+                    <br><br>
+                    <select style = "width : 40%" id = "marque">
+                        <option>---Choisissez la marque---</option>
+                        <option>Alpha Romeo</option>
+                        <option>Aston Martin</option>
+                        <option>Bentley</option>
+                        <option>Bugatti</option>
+                        <option>Cadillac</option>
+                        <option>Dodge</option>
+                        <option>Ferrari</option>
+                        <option>Ford Mustang</option>
+                        <option>Hummer</option>
+                        <option>Infiniti</option>
+                        <option>Jaguar</option>
+                        <option>Koenigsegg</option>
+                        <option>Lamborghini</option>
+                        <option>Lexus</option>
+                        <option>Lotus</option>
+                        <option>Maserati</option>
+                        <option>McLaren</option>
+                        <option>Mercedes</option>
+                        <option>Porsche</option>
+                        <option>Rolls-Royce</option>
+                        <option>Maserati</option>
+                        <option>Maserati</option>
+                    </select>
+                    <input placeholder="kilométrage" type="number" id="km" name="km" style = "font-size : 15px; width : 50%" required>Km
+                    <br><br>
+                    <select style = "width : 20%" id = "annee" required>
+                        <option>---Année---</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                    </select>
+                    <input placeholder="Modèle" type="text" id="modele" name="modele" style = "width : 43%; font-size : 15px; width : 53%" required>
+                    <input placeholder="Prix" type="number" id="prix" name="prix" style = "font-size : 15px; width : 20%" required>€
+                    <br><br>
+                    Description : <br>
+                   <textarea name="le-message" rows="8" cols="53" style = "font-size : 15px" id = "description">Vous pouvez décrire votre véhicule</textarea>
+                   <br>
+                   <input type="file" accept="image/*" onchange="loadFile(event)">
+                   <img id="output" class = "preview"/>
+                   <button id = "b3" style = "width : 98%; height : 30px; font-size : 20px; margin-top : 2%" type = "submit" onclick = "soumettre()">Soumettre</button>
+            </form>
+        </section></FONT>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script >
+            function soumettre()
+            {
+                var element = document.querySelector("bbody");
+                
+                var section = document.createElement("section");
+                var div = document.createElement("div");
+                var div2 = document.createElement("div");
+                var ul1 = document.createElement("ul");
+                var ul2 = document.createElement("ul");
+                var ul3 = document.createElement("ul");
+                var ul4 = document.createElement("ul");
+                var ul5 = document.createElement("ul");
+                var ul6 = document.createElement("ul");
+                var ul7 = document.createElement("ul");
+                
+                ul1.textContent = document.getElementById("prenom").value
+                ul1.append(' ')
+                ul1.append(document.getElementById("nom").value)
+                ul2.textContent = document.getElementById("marque").value
+                ul3.textContent = document.getElementById("modele").value
+                ul4.textContent = document.getElementById("annee").value
+                ul5.textContent = document.getElementById("km").value
+                ul5.append(' Km')
+                ul6.textContent = document.getElementById("prix").value
+                ul6.append(' €')
+                ul7.textContent = document.getElementById("description").value
+                
+                div.appendChild(ul1);
+                div.appendChild(ul2);
+                div.appendChild(ul6);
+                div.appendChild(ul3);
+                div.appendChild(ul4);
+                div.appendChild(ul5);
+                div.appendChild(ul7);
+                
+                section.appendChild(div);
+                section.appendChild(div2);
+                element.appendChild(section);
+                section.style.backgroundColor = "black";
+                section.style.color = "white";
+            }
+        var loadFile = function(event) {
+          var output = document.getElementById('output');
+          output.src = URL.createObjectURL(event.target.files[0]);
+          output.onload = function() {
+            URL.revokeObjectURL(output.src) // free memory
+          }
+        };
+        $(window).on("load",function() {
+            $(window).scroll(function() {
+                var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                $("section").each(function() {
+                    var objectBottom = $(this).offset().top + $(this).outerHeight();
+                    if (objectBottom < windowBottom) {
+                        if ($(this).css("opacity")==0){
+                            $(this).fadeTo(500,1);
+                        }
+                    }
+                    else{
+                        if ($(this).css("opacity")==1){
+                            $(this).fadeTo(500,0);
+                        }
+                    }
+                });
+            }).scroll(); //invoke scroll-handler on page-load
+        });
+        </script>
+    </body>
+    <footer>
+        <table>
+            <tr>
+                <td> Mentions légales </td>
+                <td> Protection de données </td>
+                <td> CGV</td>
+                <td> Conditions des oeuvres </td>
+                <td> Paramètres de données </td>
+            </tr>
+        </table>
+        <p style = "margin-top : 40px">Retrouvez nous sur nos réseaux
+        <img class = "reseau" src = "twitter.png"/>
+        <img class = "reseau" src = "facebook.png"/>
+        <img class = "reseau" src = "instagram.png"/></p>
+        <br>
+        <FONT size = "5"><p style = "text-align : center">Réalisé dans le cadre du projet de programmation Web</FONT>
+        <FONT size = "3"><br>Réalisé par Neal Christopher LOUOKDOM FOKAM</p></FONT>
+    </footer>
+</html>
